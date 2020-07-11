@@ -8,7 +8,7 @@
 
 
 
-![image-20200711183241862](C:\Users\mmm\AppData\Roaming\Typora\typora-user-images\image-20200711183241862.png)
+![](https://sec2.oss-cn-shanghai.aliyuncs.com/img/20200712000706.png)
 
 
 
@@ -20,15 +20,15 @@ dim4有6480份样本，debug时间少于10s的有4950份，绝大多数人首次
 
 剩下的1530份样本中，大多几十分钟便可完成debug
 
-![image-20200711205257911](C:\Users\mmm\AppData\Roaming\Typora\typora-user-images\image-20200711205257911.png)
+![](https://sec2.oss-cn-shanghai.aliyuncs.com/img/20200712000736.png)
 
 ## 3. 代码有效行数
 
-![image-20200711205830542](C:\Users\mmm\AppData\Roaming\Typora\typora-user-images\image-20200711205830542.png)
+![](https://sec2.oss-cn-shanghai.aliyuncs.com/img/20200712000806.png)
 
 ## 4. mi指数
 
-![image-20200711210149494](C:\Users\mmm\AppData\Roaming\Typora\typora-user-images\image-20200711210149494.png)
+![](https://sec2.oss-cn-shanghai.aliyuncs.com/img/20200712000829.png)
 
 ## 总结
 
@@ -101,6 +101,10 @@ $$
 $$
 S^{score}_{dim4}=DT^{score}_{dim4}+VL^{score}_{dim4}+MI^{score}_{dim4}
 $$
+
+
+
+
 
 
 
