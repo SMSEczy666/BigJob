@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif']=['SimHei']#显示中文
 
 target_dim='dim1'
-mu=1000
 x=[]
 with open("D:\数据科学大作业\BigJob\indicators_of_four_dim.json","r") as fp:
     df=json.load(fp)
@@ -16,7 +15,8 @@ with open("D:\数据科学大作业\BigJob\indicators_of_four_dim.json","r") as 
 
 ##区间数
 num_bins=400
-n,bins,patches=plt.hist(x,num_bins)
+
+plt.hist(x,num_bins)
 
 plt.xlabel('mi指数')
 
