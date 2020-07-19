@@ -68,8 +68,8 @@ print(X_test.shape)  # (52,4)
 print(y_train.shape)
 # 就先画下训练集的情况，看机器学习能否分类
 dataFrame = pd.DataFrame(X_train, columns=['dt', 'vl', 'mi'])
-# , color=colors
-grr = scatter_matrix(dataFrame, figsize=(15, 15), marker='o',
+# , color=colors 下面有这个就有颜色了
+grr = scatter_matrix(dataFrame, color=colors, figsize=(15, 15), marker='o',
                      hist_kwds={'bins': 20}, s=60, alpha=.8, cmap=mglearn.cm3)
 # 保存图片地址
 plt.savefig('e:/desktop/class_plt.png')
