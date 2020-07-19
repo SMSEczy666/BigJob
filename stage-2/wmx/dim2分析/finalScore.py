@@ -28,7 +28,7 @@ def calMIScore(list,avgMi):
     sumScore=0
     for subItem in list:
         n+=1
-        sumScore+=(avgMI/subItem[3])**2
+        sumScore+=(avgMi/subItem[3])**2
     return sumScore/n
 
 target_dim="dim2"
